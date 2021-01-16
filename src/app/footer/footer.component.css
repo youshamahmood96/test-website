@@ -1,0 +1,11 @@
+footer{
+    margin-top:50px;
+    background-color:#1F4948;
+    color:#FFFFFF;
+    list-style: none;
+    height:50px;
+    padding:12px;
+}
+li{
+    margin-right:60px;
+}

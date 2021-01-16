@@ -1,0 +1,19 @@
+.beers{
+    margin-top:50px;
+}
+.wrap{
+    width:95%;
+    margin:0 auto;
+}
+.image{
+    width:300px;
+    heigth:400px;
+}
+.card{
+    display:inline;
+    margin:100px;
+}
+.card-item {
+    display:inline-block;
+    margin-bottom:40px;
+}

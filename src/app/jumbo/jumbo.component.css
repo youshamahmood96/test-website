@@ -1,0 +1,11 @@
+.jumbo-text{
+    margin-top:100px;
+    margin-left:20px;
+}
+.owl-item {
+    display: flex;
+    align-items: center;
+}
+ng-template{
+    text-align: center;
+}

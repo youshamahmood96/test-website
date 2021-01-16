@@ -1,0 +1,13 @@
+<div class="beers">
+    <h3 class="text-center text-bold" style="color:#4F4F4F; font-weight:bolder;margin-bottom:50px" >Products</h3>
+    <div class="wrap">
+        <div *ngFor = "let data of apiData" class="card" >
+            <div  (click)="openModal(data)" class="card-item" >
+                <img style="width:200px;height:500px" src="{{data.image_url}}"  alt="Photo of a Shiba Inu">
+                <h5>{{data.name}}</h5>
+                <p>${{data.abv}}</p>
+            </div>
+        </div>
+    </div>
+      
+</div>
