@@ -3,9 +3,11 @@
     <div class="wrap">
         <div *ngFor = "let data of apiData" class="card" >
             <div  (click)="openModal(data)" class="card-item" >
-                <img style="width:200px;height:500px" src="{{data.image_url}}"  alt="Photo of a Shiba Inu">
-                <h5>{{data.name}}</h5>
+                <img style="width:200px;height:500px" src="{{data.image_url}}"  alt="Beers">
+                <div class="info">
+                    <h4>{{data.name}}</h4>
                 <p>${{data.abv}}</p>
+                </div>
             </div>
         </div>
     </div>

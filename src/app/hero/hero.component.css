@@ -5,8 +5,12 @@
     width:95%;
     margin:0 auto;
 }
+.info{
+    margin-top:30px;
+    width:200px;
+}
 .image{
-    width:300px;
+    width:250px;
     heigth:400px;
 }
 .card{
@@ -16,4 +20,5 @@
 .card-item {
     display:inline-block;
     margin-bottom:40px;
+    cursor:pointer;
 }
